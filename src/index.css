@@ -15,3 +15,7 @@
   --color-primary: #2370d8;
   --color-secondary: #f6b704;
 }
+
+.nav-links-item {
+  @apply flex flex-col gap-3 w-20 items-center text-white text-sm hover:underline hover:opacity-85;
+}

@@ -3,10 +3,12 @@ import Home from "./components/Home";
 import Products from "./components/Products";
 import ProductDetail from "./components/ProductDetail";
 import Cart from "./components/Cart";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
     <>
+      <Navbar />
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="products" element={<Products />}></Route>
