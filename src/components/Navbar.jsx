@@ -5,7 +5,7 @@ import Logo from "../assets/img/rumahku-logo.png";
 function Navbar() {
   return (
     <header>
-      <nav className="fixed top-0 left-0 w-full flex items-center gap-7 px-5 py-3 bg-primary">
+      <nav className="fixed top-0 left-0 z-50 w-full flex items-center gap-7 px-5 py-3 bg-primary">
         {/* Logo */}
         <Link to="/">
           <img src={Logo} alt="Rumahku Logo" />
